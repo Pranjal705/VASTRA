@@ -30,6 +30,6 @@ app.use('/api/carts', cartRoute);
 app.use('/api/orders', orderRoute);
 app.use('/api/checkout', stripeRoute);
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log("Backend Server is running");
 }); // listening to the server
